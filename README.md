@@ -1,5 +1,5 @@
-# permisson
-PERMISSON
+# permission
+PERMISSION
 Bu document bizga standart konfiguratsiyadagi djangoning authenticationdan qanday foydalanishlikni tushuntiradi. Bu konfugratsiya xizmat kursatishga moslashtirilgan eng kotta kerakli loytxalarni rivojlantirish imkoni beradi,turli keng miqyosdagi vazifalarga oqilani boshqarish va password av permassion (parol va ruxsat) larni extiyotkorligini osherish, project ushun projectda mavjud bulgan authentication standart xolatdagindan o'zgartirish kerak buladi, Djnago kub qullab quvvotlaydi authenticationdi kingaytrishi va moslashtirishni. Django authenticationi authentication tizimiga umumiy nazaryabilan bergalikda authetication va authorizationdi qullab quvvotlaydi.
 
 # USER objects
@@ -66,3 +66,24 @@ kichik adminlar asosiy admin ruxsat bergan buyruqlardan ortig'narsa bajara olmay
 6. qushilgan userlarni admin fileda kuramiz
                                           
 <img width="853" alt="Screenshot 2022-09-27 at 18 55 03" src="https://user-images.githubusercontent.com/97334206/192546061-6ae9ee42-a68d-4a39-9dd0-847997993a38.png">
+
+# Permission and Authorization
+!! eslatma !! Django o'zining tayyor permission tizimi bilan birga  keladi. bu userlarning gruhlarda va userlarda maxsus aniqligini taminlaydi.
+biz bunda django admi site orqali foydalanmiz ammo siz uzingizdi codingizni yozishingiz mumkin,
+# Django admin siteni permissionlaridan quyidagi ruyxat buyicha foydalanamiz.
+------------------------------------------------------------------------------------------------------
+1--* objectlarni ko'rishga kirish uchun quyidagi object turidagi 'ko'rish'(view) va 'o'zgartirish'(change) bilan ruxsati bilan userlar cheklanadi
+2--* formani ko'rish uchun kirish quyidagi object turi uchun 'qushish'(add) ruxsati bilan userlarga cheklanadi.
+3--* listni o'zgartirishni ko'rishga kirish, shakilni 'o'zgartirish' (chanage), quyidagi object turi uchin 'o'zgartirish'(change) ruxsati bilan userlarga cheklov beriladi.
+4--* objectni 'uchirish' uchun kirish quyidagi objectlar uchun 'delete' ruxsati bilan userlarga cheklov quyiladi.
+------------------------------------------------------------------------------------------------------
+
+!! islatma: Permissionlar objectning turiga qarab o'rnatilishi mumkin ammo muayyan object uchun bulishi mumkin.
+
+has_view_permission(): ---> kurish
+has_read_permission(): ---> uqish
+has_add_permission():  ---> qushish
+has_delete_permission(): ---> uchirish
+
+ModelAdmin class ichida shu model orqali yuqorida taqdimm etilgam methodlar yordamida qullaniladi.
+
