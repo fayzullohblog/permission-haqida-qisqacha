@@ -54,3 +54,16 @@ kichik adminlar asosiy admin ruxsat bergan buyruqlardan ortig'narsa bajara olmay
 # demak bizning asosiy ishimiz kichik admin va guruhlarni nazorat qilish va kimlar bizning guruhimizdan foydalnayabdi boshqarish, xullas GROUP va KICHIK ADMIN lar ustidan authentication va permission( ruxsat)larni nazorat qiladi.
 1. xozir biz mening uzim admin nomli userman asosiy kotta, endi qushimcha userlar qushishim kerak, buning 2 ta yuli bor: 1- admin panelga utib qushish, 2- terminal ochib shell ichiga kirib qushish, biz 2- usuldan foydalanib kurmiz. chunki bu usil kub projectlarda as qotadi: 
 <img width="1353" alt="Screenshot 2022-09-27 at 16 04 01" src="https://user-images.githubusercontent.com/97334206/192509214-74af230d-432f-4d7b-b042-d45dd85a49fb.png">
+
+2. quyidagi command orqali shelga kirib olamiz:
+ <img width="1437" alt="Screenshot 2022-09-27 at 16 09 22" src="https://user-images.githubusercontent.com/97334206/192510217-29e0cec8-d8cd-4ab5-8ae0-fbf6ac5e148c.png">
+3. userni chaqirib olamiz
+ <img width="1439" alt="Screenshot 2022-09-27 at 16 13 01" src="https://user-images.githubusercontent.com/97334206/192510886-b050ef9e-ff7b-4a92-bb28-278d16d9b7f3.png">
+4. user qushamiz
+5. 2 ta user qushdim,
+ <img width="1081" alt="Screenshot 2022-09-27 at 18 42 24" src="https://user-images.githubusercontent.com/97334206/192542940-c5f18042-5255-4d4c-aede-a9a034137a32.png">
+<img width="1396" alt="Screenshot 2022-09-27 at 18 43 12" src="https://user-images.githubusercontent.com/97334206/192543143-e6deba90-24f3-4c6e-962d-76af25fbb03d.png">
+6. qushilgan userlarni admin fileda kuramiz
+<img width="844" alt="Screenshot 2022-09-27 at 18 43 39" src="https://user-images.githubusercontent.com/97334206/192543336-9231bb79-f2a6-457f-be5a-a4457a317611.png>
+                                                              
+                                                        
