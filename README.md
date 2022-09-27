@@ -64,6 +64,5 @@ kichik adminlar asosiy admin ruxsat bergan buyruqlardan ortig'narsa bajara olmay
  <img width="1081" alt="Screenshot 2022-09-27 at 18 42 24" src="https://user-images.githubusercontent.com/97334206/192542940-c5f18042-5255-4d4c-aede-a9a034137a32.png">
 <img width="1396" alt="Screenshot 2022-09-27 at 18 43 12" src="https://user-images.githubusercontent.com/97334206/192543143-e6deba90-24f3-4c6e-962d-76af25fbb03d.png">
 6. qushilgan userlarni admin fileda kuramiz
-<img width="844" alt="Screenshot 2022-09-27 at 18 43 39" src="https://user-images.githubusercontent.com/97334206/192543336-9231bb79-f2a6-457f-be5a-a4457a317611.png>
-                                                              
-                                                        
+                                          
+<img width="853" alt="Screenshot 2022-09-27 at 18 55 03" src="https://user-images.githubusercontent.com/97334206/192546061-6ae9ee42-a68d-4a39-9dd0-847997993a38.png">
